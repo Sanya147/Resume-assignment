@@ -1,0 +1,156 @@
+body {
+    background-color: lightblue;
+}
+
+#layout {
+    position: relative;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 40px 200px;
+    margin-bottom: 1px;
+    /* border-radius: 10px; */
+}
+
+#layout .left {
+    /* position: sticky; */
+    background-color: #003147;
+}
+#layout .right {
+    /* text-align: left; */
+    background-color: #e4eab3;
+}
+
+#layout img {
+    position: relative;
+    left: 3px;
+    border-radius: 100%;
+    height: 260px;
+    width: 280px;
+    margin: 26px;
+}
+
+#layout .detail {
+    color: white;
+    /* font-size: 20px; */
+}
+#layout .detail span1 {
+    position: relative;
+    top: -11px;
+    font-size: 39px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#layout .detail span {
+    position: relative;
+    top: -13px;
+    font-size: 16px;
+    margin: 15px;
+    padding: 20px;
+}
+#layout hr{
+    width: 273px;
+}
+
+#about h2 {
+    font-size: 27px;
+    color: white;
+}
+#about i {
+    color: #f25454;
+    text-align: left;
+}
+#about table {
+    margin-left: auto;
+    margin-right: auto;
+}
+#about table span {
+    align: left;
+    color: #fff368;
+    /* margin-left: -100px; */
+}
+
+#profile p{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#profile hr {
+    width: 400px;
+    background-color: red;
+}
+#skill table {
+    margin-left: auto;
+    margin-right: auto;
+}
+#skill .ab {
+    display: flex;
+}
+#skill hr {
+    width: 400px;
+    background-color: red;
+}
+
+#matri hr {
+    width: 400px;
+    background-color: red;
+}
+#matri table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact{
+    position: relative;
+}
+.h-primary{
+    font-size: 2rem;
+    padding: 15px;
+    color: #003147;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+}
+#contact-box input,#contact-box textarea{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+#contact-box form{
+    width: 60%;
+}
+#contact-box label{
+    font-size: 1.25rem;
+    font-family: 'Baloo Bhai 2', cursive; 
+}
+#contact-box button {
+    margin: 17px;
+    padding: 8px;
+    border-radius: 11px;
+    border: aliceblue;
+    color: white;
+    width: 225px;
+    background-color: #09a609;
+}
+
+footer{
+    background: #313030;
+    padding: 9px 20px;
+    text-align: center;
+}
+footer b{
+    font-size: 26px;
+    color: white;
+}
+footer i{
+
+    color: white;
+    padding: 10px;
+}
+footer i:hover{
+    color: skyblue;
+}
